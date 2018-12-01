@@ -2,6 +2,7 @@
 
 [![Google Group](https://img.shields.io/badge/-Google%20Group-lightgrey.svg)](https://groups.google.com/forum/#!forum/jupyter)
 [![Documentation Status](http://readthedocs.org/projects/jupyterhub-deploy-teaching/badge/?version=latest)](http://jupyterhub-deploy-teaching.readthedocs.org/en/latest/?badge=latest)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fboersmamarcel%2Fjupyterhub-deploy-teaching.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fboersmamarcel%2Fjupyterhub-deploy-teaching?ref=badge_shield)
 
 The goal of this repository is to produce a reference deployment of JupyterHub
 for teaching with nbgrader.
@@ -112,3 +113,7 @@ The logs for nbgrader are in ``/var/log/nbgrader``.
 ### Starting, stopping, and restarting the Hub
 To manage the jupyterhub and nbgrader services by SSH to the server
 and run: ``supervisorctl jupyterhub [start|stop|restart]``
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fboersmamarcel%2Fjupyterhub-deploy-teaching.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fboersmamarcel%2Fjupyterhub-deploy-teaching?ref=badge_large)
